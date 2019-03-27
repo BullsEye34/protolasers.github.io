@@ -1,0 +1,59 @@
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/textfield/mdc-text-field";
+@import "@material/typography/mdc-typography";
+@import "@material/card/mdc-card";
+@import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+@import "@material/button/mdc-button";
+@import "@material/textfield/icon/mdc-text-field-icon";
+@import "@material/textfield/character-counter/mdc-text-field-character-counter";
+
+
+
+.my-card-content {
+    padding: 16px;
+  }
+
+.mdc-card{
+    width: 100%;
+    color: #000;
+    background: grey;
+}
+
+.mdc-text-field{
+  width: 90%;
+}
+
+/*html body{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,c52ffc+0,207cca+100,207cca+100,1c5bed+100 */
+/*background: #1e5799; /* Old browsers */
+/*background: -moz-linear-gradient(45deg, #1e5799 0%, #c52ffc 0%, #207cca 100%, #207cca 100%, #1c5bed 100%); /* FF3.6-15 */
+/*background: -webkit-linear-gradient(45deg, #1e5799 0%,#c52ffc 0%,#207cca 100%,#207cca 100%,#1c5bed 100%); /* Chrome10-25,Safari5.1-6 */
+/*background: linear-gradient(45deg, #1e5799 0%,#c52ffc 0%,#207cca 100%,#207cca 100%,#1c5bed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1c5bed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/*background-repeat: no-repeat;
+background-attachment: fixed;
+}*/
+
+html body{
+  background: url("img/0.jpg") center / cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px){
+  .mdc-card{
+    width: 40%;
+    color: #000;
+  }
+  .mdc-text-field{
+    width: 60%;
+  }
+  html body{
+    color: ivory;
+  }
+}
